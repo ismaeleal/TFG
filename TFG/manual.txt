@@ -1,0 +1,5 @@
+python manage.py runserver ------iniciar Django
+
+python manage.py migrate ------migrar base de datos
+
+
