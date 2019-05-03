@@ -1,0 +1,41 @@
+from django.contrib import admin
+from .models import Dispositivo
+from django.db import models
+from django.utils import timezone
+
+
+class Dispositivo(models.Model):
+    Usuario = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+    Nombre = models.CharField(max_length=200)
+    ID = models.CharField(max_length=200 , unique=True)
+    Localizacion= models.CharField(max_length=200)
+    Despcricion = models.TextField(default='')
+    intervalo = models.IntegerField(default=15)
+    Created_date = models.DateTimeField(
+            default=timezone.now)
+    
+
+    def publish(self):
+        self.save()
+
+    def __str__(self):
+        return self.ID
+
+class sensor(models.Model):
+    Nombre_sensor = models.CharField(max_length=200)
+    ID_dispositivo = models.ForeignKey( Dispositivo , on_delete=models.CASCADE)
+    ID_sensor = models.CharField(max_length=200 , primary_key=True)
+    Localizacion= models.CharField(max_length=200)
+    Despcricion=models.TextField()
+    intervalo=models.IntegerField(default=15)
+    tipo=models.CharField(max_length=200)
+    Created_date = models.DateTimeField(
+            default=timezone.now)
+    
+
+    def publish(self):
+        self.save()
+
+    def __str__(self):
+        return self.ID_sensor 
+# Register your models here.

@@ -1,0 +1,8 @@
+# KDE Cookie File v2
+#
+# Host               Domain               Path         Exp.date   Prot Name                 Sec  Value
+[.google.com]
+www.google.com       ".google.com"        "/complete/search" 1570754953    0 CGIC                 6    IlR0ZXh0L2h0bWwsIHRleHQvKjtxPTAuOSwgaW1hZ2UvanBlZztxPTAuOSwgaW1hZ2UvcG5nO3E9MC45LCBpbWFnZS8qO3E9MC45LCAqLyo7cT0wLjg
+www.google.com       ".google.com"        "/search"    1570754953    0 CGIC                 6    IlR0ZXh0L2h0bWwsIHRleHQvKjtxPTAuOSwgaW1hZ2UvanBlZztxPTAuOSwgaW1hZ2UvcG5nO3E9MC45LCBpbWFnZS8qO3E9MC45LCAqLyo7cT0wLjg
+www.google.com       ".google.com"        "/"          1557568477    0 1P_JAR               4    2019-04-11-11
+www.google.com       ".google.com"        "/"          1570787677    0 NID                  6    181=vpnq_3aFM0UTxjWEFANNvWGlKpAq4imHC7Ksop7-AZbZFitrl468Bd34TEueop1gEH4bahIyptYG4Iu6-23DOCiEqgcBkhywN65oZvlIshYDKK8VJgGiitvPZxGkGuM5WY-0t5HreJRHXFU-h0Bc6_Tfq-ZcHe-ZUsWjmo7kn54

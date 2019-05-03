@@ -5,7 +5,8 @@ DefaultProfile=Profile 1.profile
 Favorites=
 
 [MainWindow]
-Height 900=795
-State=AAAA/wAAAAD9AAAAAAAAA/sAAAL9AAAABAAAAAQAAAAIAAAACPwAAAAA
+Height 900=841
+State=AAAA/wAAAAD9AAAAAAAABaAAAAMrAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 1440=1019
+Width 1440=1440
+Window-Maximized 900x1440=true

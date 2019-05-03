@@ -1927,7 +1927,7 @@ Exception Value: Invalid HTTP_HOST header: &#39;127.0.0.1:8000&#39;. You may nee
 
 </body>
 </html>
-s’$Á±~      \≠„à\≠„Ç@>ÌL       "    :http://127.0.0.1:8000/favicon.ico strongly-framed 0 request-method GET response-head HTTP/1.1 400 Bad Request
+D!8Î±~      \Ø3\Ø1ı@Aê–       "    :http://127.0.0.1:8000/favicon.ico strongly-framed 0 request-method GET response-head HTTP/1.1 400 Bad Request
 Date: Wed, 10 Apr 2019 08:09:18 GMT
 Server: WSGIServer/0.2 CPython/3.6.7
 Content-Type: text/html

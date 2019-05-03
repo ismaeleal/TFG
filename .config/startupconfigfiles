@@ -21,7 +21,7 @@ kcminputrc Mouse cursorSize ''
 !/var/lib/snapd/desktop/config/kcminputrc
 *
 ksplashrc KSplash Theme Breeze
-!/home/ismael/.config/ksplashrc
+/home/ismael/.config/ksplashrc
 !/etc/xdg/xdg-plasma/ksplashrc
 !/etc/xdg/ksplashrc
 !/usr/share/kubuntu-default-settings/kf5-settings/ksplashrc
@@ -32,7 +32,7 @@ ksplashrc KSplash Theme Breeze
 !/var/lib/snapd/desktop/config/ksplashrc
 *
 ksplashrc KSplash Engine KSplashQML
-!/home/ismael/.config/ksplashrc
+/home/ismael/.config/ksplashrc
 !/etc/xdg/xdg-plasma/ksplashrc
 !/etc/xdg/ksplashrc
 !/usr/share/kubuntu-default-settings/kf5-settings/ksplashrc

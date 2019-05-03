@@ -158,7 +158,7 @@
     </tr>
     <tr>
       <th>Server time:</th>
-      <td>Mi√©, 10 Abr 2019 12:37:22 +0000</td>
+      <td>Jue, 11 Abr 2019 12:24:21 +0000</td>
     </tr>
   </table>
 </div>
@@ -178,43 +178,43 @@
           <code>/home/ismael/TFG/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py</code> in <code>inner</code>
 
           
-            <div class="context" id="c140466344212808">
+            <div class="context" id="c139739910804040">
               
-                <ol start="27" class="pre-context" id="pre140466344212808">
+                <ol start="27" class="pre-context" id="pre139739910804040">
                 
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>    This decorator is automatically applied to all middleware to ensure that</pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>    This decorator is automatically applied to all middleware to ensure that</pre></li>
                 
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>    no middleware leaks an exception and that the next middleware in the stack</pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>    no middleware leaks an exception and that the next middleware in the stack</pre></li>
                 
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>    can rely on getting a response instead of an exception.</pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>    can rely on getting a response instead of an exception.</pre></li>
                 
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>    &quot;&quot;&quot;</pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>    &quot;&quot;&quot;</pre></li>
                 
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>    @wraps(get_response)</pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>    @wraps(get_response)</pre></li>
                 
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>    def inner(request):</pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>    def inner(request):</pre></li>
                 
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>        try:</pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>        try:</pre></li>
                 
                 </ol>
               
               <ol start="34" class="context-line">
-                <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>            response = get_response(request)</pre> <span>‚Ä¶</span></li>
+                <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>            response = get_response(request)</pre> <span>‚Ä¶</span></li>
               </ol>
               
-                <ol start='35' class="post-context" id="post140466344212808">
+                <ol start='35' class="post-context" id="post139739910804040">
                   
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>        except Exception as exc:</pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>        except Exception as exc:</pre></li>
                   
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>            response = response_for_exception(request, exc)</pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>            response = response_for_exception(request, exc)</pre></li>
                   
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>        return response</pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>        return response</pre></li>
                   
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre>    return inner</pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre>    return inner</pre></li>
                   
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre></pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre></pre></li>
                   
-                  <li onclick="toggle('pre140466344212808', 'post140466344212808')"><pre></pre></li>
+                  <li onclick="toggle('pre139739910804040', 'post139739910804040')"><pre></pre></li>
                   
               </ol>
               
@@ -224,10 +224,10 @@
           
             <div class="commands">
                 
-                    <a href="#" onclick="return varToggle(this, '140466344212808')"><span>&#x25b6;</span> Local vars</a>
+                    <a href="#" onclick="return varToggle(this, '139739910804040')"><span>&#x25b6;</span> Local vars</a>
                 
             </div>
-            <table class="vars" id="v140466344212808">
+            <table class="vars" id="v139739910804040">
               <thead>
                 <tr>
                   <th>Variable</th>
@@ -243,7 +243,7 @@
                 
                   <tr>
                     <td>get_response</td>
-                    <td class="code"><pre>&lt;django.middleware.common.CommonMiddleware object at 0x7fc0de8f7320&gt;</pre></td>
+                    <td class="code"><pre>&lt;django.middleware.common.CommonMiddleware object at 0x7f17bbc37048&gt;</pre></td>
                   </tr>
                 
                   <tr>
@@ -261,39 +261,39 @@
           <code>/home/ismael/TFG/myvenv/lib/python3.6/site-packages/django/utils/deprecation.py</code> in <code>__call__</code>
 
           
-            <div class="context" id="c140466344213064">
+            <div class="context" id="c139739910805960">
               
-                <ol start="86" class="pre-context" id="pre140466344213064">
+                <ol start="86" class="pre-context" id="pre139739910805960">
                 
-                  <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre>    def __init__(self, get_response=None):</pre></li>
+                  <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre>    def __init__(self, get_response=None):</pre></li>
                 
-                  <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre>        self.get_response = get_response</pre></li>
+                  <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre>        self.get_response = get_response</pre></li>
                 
-                  <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre>        super().__init__()</pre></li>
+                  <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre>        super().__init__()</pre></li>
                 
-                  <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre></pre></li>
+                  <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre></pre></li>
                 
-                  <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre>    def __call__(self, request):</pre></li>
+                  <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre>    def __call__(self, request):</pre></li>
                 
-                  <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre>        response = None</pre></li>
+                  <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre>        response = None</pre></li>
                 
-                  <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre>        if hasattr(self, &#39;process_request&#39;):</pre></li>
+                  <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre>        if hasattr(self, &#39;process_request&#39;):</pre></li>
                 
                 </ol>
               
               <ol start="93" class="context-line">
-                <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre>            response = self.process_request(request)</pre> <span>‚Ä¶</span></li>
+                <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre>            response = self.process_request(request)</pre> <span>‚Ä¶</span></li>
               </ol>
               
-                <ol start='94' class="post-context" id="post140466344213064">
+                <ol start='94' class="post-context" id="post139739910805960">
                   
-                  <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre>        response = response or self.get_response(request)</pre></li>
+                  <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre>        response = response or self.get_response(request)</pre></li>
                   
-                  <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre>        if hasattr(self, &#39;process_response&#39;):</pre></li>
+                  <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre>        if hasattr(self, &#39;process_response&#39;):</pre></li>
                   
-                  <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre>            response = self.process_response(request, response)</pre></li>
+                  <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre>            response = self.process_response(request, response)</pre></li>
                   
-                  <li onclick="toggle('pre140466344213064', 'post140466344213064')"><pre>        return response</pre></li>
+                  <li onclick="toggle('pre139739910805960', 'post139739910805960')"><pre>        return response</pre></li>
                   
               </ol>
               
@@ -303,10 +303,10 @@
           
             <div class="commands">
                 
-                    <a href="#" onclick="return varToggle(this, '140466344213064')"><span>&#x25b6;</span> Local vars</a>
+                    <a href="#" onclick="return varToggle(this, '139739910805960')"><span>&#x25b6;</span> Local vars</a>
                 
             </div>
-            <table class="vars" id="v140466344213064">
+            <table class="vars" id="v139739910805960">
               <thead>
                 <tr>
                   <th>Variable</th>
@@ -327,7 +327,7 @@
                 
                   <tr>
                     <td>self</td>
-                    <td class="code"><pre>&lt;django.middleware.common.CommonMiddleware object at 0x7fc0de8f7320&gt;</pre></td>
+                    <td class="code"><pre>&lt;django.middleware.common.CommonMiddleware object at 0x7f17bbc37048&gt;</pre></td>
                   </tr>
                 
               </tbody>
@@ -340,43 +340,43 @@
           <code>/home/ismael/TFG/myvenv/lib/python3.6/site-packages/django/middleware/common.py</code> in <code>process_request</code>
 
           
-            <div class="context" id="c140466344213832">
+            <div class="context" id="c139739910804296">
               
-                <ol start="40" class="pre-context" id="pre140466344213832">
+                <ol start="40" class="pre-context" id="pre139739910804296">
                 
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>        # Check for denied User-Agents</pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>        # Check for denied User-Agents</pre></li>
                 
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>        if &#39;HTTP_USER_AGENT&#39; in request.META:</pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>        if &#39;HTTP_USER_AGENT&#39; in request.META:</pre></li>
                 
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>            for user_agent_regex in settings.DISALLOWED_USER_AGENTS:</pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>            for user_agent_regex in settings.DISALLOWED_USER_AGENTS:</pre></li>
                 
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>                if user_agent_regex.search(request.META[&#39;HTTP_USER_AGENT&#39;]):</pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>                if user_agent_regex.search(request.META[&#39;HTTP_USER_AGENT&#39;]):</pre></li>
                 
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>                    raise PermissionDenied(&#39;Forbidden user agent&#39;)</pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>                    raise PermissionDenied(&#39;Forbidden user agent&#39;)</pre></li>
                 
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre></pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre></pre></li>
                 
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>        # Check for a redirect based on settings.PREPEND_WWW</pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>        # Check for a redirect based on settings.PREPEND_WWW</pre></li>
                 
                 </ol>
               
               <ol start="47" class="context-line">
-                <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>        host = request.get_host()</pre> <span>‚Ä¶</span></li>
+                <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>        host = request.get_host()</pre> <span>‚Ä¶</span></li>
               </ol>
               
-                <ol start='48' class="post-context" id="post140466344213832">
+                <ol start='48' class="post-context" id="post139739910804296">
                   
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>        must_prepend = settings.PREPEND_WWW and host and not host.startswith(&#39;www.&#39;)</pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>        must_prepend = settings.PREPEND_WWW and host and not host.startswith(&#39;www.&#39;)</pre></li>
                   
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>        redirect_url = (&#39;%s://www.%s&#39; % (request.scheme, host)) if must_prepend else &#39;&#39;</pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>        redirect_url = (&#39;%s://www.%s&#39; % (request.scheme, host)) if must_prepend else &#39;&#39;</pre></li>
                   
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre></pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre></pre></li>
                   
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>        # Check if a slash should be appended</pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>        # Check if a slash should be appended</pre></li>
                   
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>        if self.should_redirect_with_slash(request):</pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>        if self.should_redirect_with_slash(request):</pre></li>
                   
-                  <li onclick="toggle('pre140466344213832', 'post140466344213832')"><pre>            path = self.get_full_path_with_slash(request)</pre></li>
+                  <li onclick="toggle('pre139739910804296', 'post139739910804296')"><pre>            path = self.get_full_path_with_slash(request)</pre></li>
                   
               </ol>
               
@@ -386,10 +386,10 @@
           
             <div class="commands">
                 
-                    <a href="#" onclick="return varToggle(this, '140466344213832')"><span>&#x25b6;</span> Local vars</a>
+                    <a href="#" onclick="return varToggle(this, '139739910804296')"><span>&#x25b6;</span> Local vars</a>
                 
             </div>
-            <table class="vars" id="v140466344213832">
+            <table class="vars" id="v139739910804296">
               <thead>
                 <tr>
                   <th>Variable</th>
@@ -405,7 +405,7 @@
                 
                   <tr>
                     <td>self</td>
-                    <td class="code"><pre>&lt;django.middleware.common.CommonMiddleware object at 0x7fc0de8f7320&gt;</pre></td>
+                    <td class="code"><pre>&lt;django.middleware.common.CommonMiddleware object at 0x7f17bbc37048&gt;</pre></td>
                   </tr>
                 
               </tbody>
@@ -418,43 +418,43 @@
           <code>/home/ismael/TFG/myvenv/lib/python3.6/site-packages/django/http/request.py</code> in <code>get_host</code>
 
           
-            <div class="context" id="c140466344213896">
+            <div class="context" id="c139739910806024">
               
-                <ol start="104" class="pre-context" id="pre140466344213896">
+                <ol start="104" class="pre-context" id="pre139739910806024">
                 
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>            return host</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>            return host</pre></li>
                 
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>        else:</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>        else:</pre></li>
                 
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>            msg = &quot;Invalid HTTP_HOST header: %r.&quot; % host</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>            msg = &quot;Invalid HTTP_HOST header: %r.&quot; % host</pre></li>
                 
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>            if domain:</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>            if domain:</pre></li>
                 
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>                msg += &quot; You may need to add %r to ALLOWED_HOSTS.&quot; % domain</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>                msg += &quot; You may need to add %r to ALLOWED_HOSTS.&quot; % domain</pre></li>
                 
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>            else:</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>            else:</pre></li>
                 
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>                msg += &quot; The domain name provided is not valid according to RFC 1034/1035.&quot;</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>                msg += &quot; The domain name provided is not valid according to RFC 1034/1035.&quot;</pre></li>
                 
                 </ol>
               
               <ol start="111" class="context-line">
-                <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>            raise DisallowedHost(msg)</pre> <span>‚Ä¶</span></li>
+                <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>            raise DisallowedHost(msg)</pre> <span>‚Ä¶</span></li>
               </ol>
               
-                <ol start='112' class="post-context" id="post140466344213896">
+                <ol start='112' class="post-context" id="post139739910806024">
                   
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre></pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre></pre></li>
                   
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>    def get_port(self):</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>    def get_port(self):</pre></li>
                   
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>        &quot;&quot;&quot;Return the port number for the request as a string.&quot;&quot;&quot;</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>        &quot;&quot;&quot;Return the port number for the request as a string.&quot;&quot;&quot;</pre></li>
                   
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>        if settings.USE_X_FORWARDED_PORT and &#39;HTTP_X_FORWARDED_PORT&#39; in self.META:</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>        if settings.USE_X_FORWARDED_PORT and &#39;HTTP_X_FORWARDED_PORT&#39; in self.META:</pre></li>
                   
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>            port = self.META[&#39;HTTP_X_FORWARDED_PORT&#39;]</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>            port = self.META[&#39;HTTP_X_FORWARDED_PORT&#39;]</pre></li>
                   
-                  <li onclick="toggle('pre140466344213896', 'post140466344213896')"><pre>        else:</pre></li>
+                  <li onclick="toggle('pre139739910806024', 'post139739910806024')"><pre>        else:</pre></li>
                   
               </ol>
               
@@ -464,10 +464,10 @@
           
             <div class="commands">
                 
-                    <a href="#" onclick="return varToggle(this, '140466344213896')"><span>&#x25b6;</span> Local vars</a>
+                    <a href="#" onclick="return varToggle(this, '139739910806024')"><span>&#x25b6;</span> Local vars</a>
                 
             </div>
-            <table class="vars" id="v140466344213896">
+            <table class="vars" id="v139739910806024">
               <thead>
                 <tr>
                   <th>Variable</th>
@@ -680,18 +680,8 @@ Exception Value: Invalid HTTP_HOST header: &#39;127.0.0.1:8000&#39;. You may nee
         </tr>
       
         <tr>
-          <td>GTK2_RC_FILES</td>
-          <td class="code"><pre>&#39;/etc/gtk-2.0/gtkrc:/home/ismael/.gtkrc-2.0:/home/ismael/.config/gtkrc-2.0&#39;</pre></td>
-        </tr>
-      
-        <tr>
           <td>GTK_MODULES</td>
           <td class="code"><pre>&#39;gail:atk-bridge&#39;</pre></td>
-        </tr>
-      
-        <tr>
-          <td>GTK_RC_FILES</td>
-          <td class="code"><pre>&#39;/etc/gtk/gtkrc:/home/ismael/.gtkrc:/home/ismael/.config/gtkrc&#39;</pre></td>
         </tr>
       
         <tr>
@@ -751,7 +741,7 @@ Exception Value: Invalid HTTP_HOST header: &#39;127.0.0.1:8000&#39;. You may nee
       
         <tr>
           <td>KONSOLE_DBUS_SERVICE</td>
-          <td class="code"><pre>&#39;:1.63&#39;</pre></td>
+          <td class="code"><pre>&#39;:1.85&#39;</pre></td>
         </tr>
       
         <tr>
@@ -806,7 +796,7 @@ Exception Value: Invalid HTTP_HOST header: &#39;127.0.0.1:8000&#39;. You may nee
       
         <tr>
           <td>OLDPWD</td>
-          <td class="code"><pre>&#39;/home/ismael/TFG/sensores&#39;</pre></td>
+          <td class="code"><pre>&#39;/home/ismael&#39;</pre></td>
         </tr>
       
         <tr>
@@ -897,7 +887,7 @@ Exception Value: Invalid HTTP_HOST header: &#39;127.0.0.1:8000&#39;. You may nee
       
         <tr>
           <td>SESSION_MANAGER</td>
-          <td class="code"><pre>&#39;local/ismael-virtual-machine:@/tmp/.ICE-unix/1489,unix/ismael-virtual-machine:/tmp/.ICE-unix/1489&#39;</pre></td>
+          <td class="code"><pre>&#39;local/ismael-virtual-machine:@/tmp/.ICE-unix/2273,unix/ismael-virtual-machine:/tmp/.ICE-unix/2273&#39;</pre></td>
         </tr>
       
         <tr>
@@ -907,7 +897,7 @@ Exception Value: Invalid HTTP_HOST header: &#39;127.0.0.1:8000&#39;. You may nee
       
         <tr>
           <td>SHELL_SESSION_ID</td>
-          <td class="code"><pre>&#39;08104b2cf8e14c44bdb32254097ee42d&#39;</pre></td>
+          <td class="code"><pre>&#39;c76e5336d16a4a99a06470609a7e2ca7&#39;</pre></td>
         </tr>
       
         <tr>
@@ -917,12 +907,12 @@ Exception Value: Invalid HTTP_HOST header: &#39;127.0.0.1:8000&#39;. You may nee
       
         <tr>
           <td>SSH_AGENT_PID</td>
-          <td class="code"><pre>&#39;1430&#39;</pre></td>
+          <td class="code"><pre>&#39;2209&#39;</pre></td>
         </tr>
       
         <tr>
           <td>SSH_AUTH_SOCK</td>
-          <td class="code"><pre>&#39;/tmp/ssh-oabETaKGj07N/agent.1346&#39;</pre></td>
+          <td class="code"><pre>&#39;/tmp/ssh-RIBARaxQBKJe/agent.2125&#39;</pre></td>
         </tr>
       
         <tr>
@@ -952,7 +942,7 @@ Exception Value: Invalid HTTP_HOST header: &#39;127.0.0.1:8000&#39;. You may nee
       
         <tr>
           <td>WINDOWID</td>
-          <td class="code"><pre>&#39;54525958&#39;</pre></td>
+          <td class="code"><pre>&#39;52428806&#39;</pre></td>
         </tr>
       
         <tr>
@@ -962,7 +952,7 @@ Exception Value: Invalid HTTP_HOST header: &#39;127.0.0.1:8000&#39;. You may nee
       
         <tr>
           <td>XAUTHORITY</td>
-          <td class="code"><pre>&#39;/tmp/xauth-1000-_0&#39;</pre></td>
+          <td class="code"><pre>&#39;/run/user/1000/gdm/Xauthority&#39;</pre></td>
         </tr>
       
         <tr>
@@ -1032,7 +1022,7 @@ Exception Value: Invalid HTTP_HOST header: &#39;127.0.0.1:8000&#39;. You may nee
       
         <tr>
           <td>wsgi.input</td>
-          <td class="code"><pre>&lt;django.core.handlers.wsgi.LimitedStream object at 0x7fc0de85feb8&gt;</pre></td>
+          <td class="code"><pre>&lt;django.core.handlers.wsgi.LimitedStream object at 0x7f17bb96cc50&gt;</pre></td>
         </tr>
       
         <tr>
@@ -1949,12 +1939,12 @@ Exception Value: Invalid HTTP_HOST header: &#39;127.0.0.1:8000&#39;. You may nee
 
 </body>
 </html>
-é®HºÇ3      \≠„Ç\≠„Ç@=ài           :http://127.0.0.1:8000/admin necko:classified 1 strongly-framed 0 request-method GET response-head HTTP/1.1 400 Bad Request
-Date: Wed, 10 Apr 2019 12:37:22 GMT
+∂¡Iî˜Ä           \Ø1ı@>p<           :http://127.0.0.1:8000/admin strongly-framed 0 request-method GET response-head HTTP/1.1 400 Bad Request
+Date: Thu, 11 Apr 2019 12:24:21 GMT
 Server: WSGIServer/0.2 CPython/3.6.7
 Content-Type: text/html
- original-response-headers Date: Wed, 10 Apr 2019 12:37:22 GMT
+ original-response-headers Date: Thu, 11 Apr 2019 12:24:21 GMT
 Server: WSGIServer/0.2 CPython/3.6.7
 Content-Type: text/html
 Connection: close
- uncompressed-len 0 net-response-time-onstart 45 net-response-time-onstop 49   ˝2
+ uncompressed-len 0 net-response-time-onstart 54 net-response-time-onstop 59   ˚∏

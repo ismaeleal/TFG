@@ -2,18 +2,54 @@ from django.db import models
 from django.utils import timezone
 
 
-class sensor(models.Model):
-    author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
-    title = models.CharField(max_length=200)
-    text = models.TextField()
-    created_date = models.DateTimeField(
+class Dispositivo(models.Model):
+    Usuario = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+    Nombre = models.CharField(max_length=200)
+    ID = models.CharField(max_length=200 , unique=True)
+    Localizacion= models.CharField(max_length=200)
+    Despcricion = models.TextField(default='')
+    intervalo = models.IntegerField(default=15)
+    Created_date = models.DateTimeField(
             default=timezone.now)
-    published_date = models.DateTimeField(
-            blank=True, null=True)
+    
 
     def publish(self):
-        self.published_date = timezone.now()
         self.save()
 
     def __str__(self):
-        return self.title
+        return self.ID
+
+class sensor(models.Model):
+    Nombre_sensor = models.CharField(max_length=200)
+    ID_dispositivo = models.ForeignKey( Dispositivo , on_delete=models.CASCADE)
+    ID_sensor = models.CharField(max_length=200 , primary_key=True)
+    Localizacion= models.CharField(max_length=200)
+    Despcricion=models.TextField()
+    intervalo=models.IntegerField(default=15)
+    tipo=models.CharField(max_length=200)
+    Created_date = models.DateTimeField(
+            default=timezone.now)
+    
+
+    def publish(self):
+        self.save()
+
+    def __str__(self):
+        return self.ID_sensor 
+
+class valores(models.Model):
+    
+    ID_sensor = models.ForeignKey( sensor , on_delete=models.CASCADE)
+    ID_valor = models.CharField(max_length=200 , primary_key=True)
+
+    valor=models.IntegerField(default=0)
+    
+    date = models.DateTimeField(
+            default=timezone.now)
+    
+
+    def publish(self):
+        self.save()
+
+    def __str__(self):
+        return self.ID_valor 

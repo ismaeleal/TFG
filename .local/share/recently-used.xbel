@@ -16,7 +16,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/ismael/TFG/manage.py" added="2019-04-10T07:57:01Z" modified="2019-04-10T07:57:01Z" visited="2019-04-10T07:57:01Z">
+  <bookmark href="file:///home/ismael/TFG/manage.py" added="2019-04-10T07:57:01Z" modified="2019-04-10T15:04:36Z" visited="2019-04-10T07:57:01Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-python"/>
@@ -24,7 +24,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-10T07:57:01Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-10T15:04:36Z" count="14"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -55,7 +55,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/ismael/TFG/sensores/models.py" added="2019-04-10T11:03:33Z" modified="2019-04-10T11:03:33Z" visited="2019-04-10T11:03:34Z">
+  <bookmark href="file:///home/ismael/TFG/sensores/models.py" added="2019-04-10T11:03:33Z" modified="2019-04-11T12:32:07Z" visited="2019-04-10T11:03:34Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-python"/>
@@ -63,12 +63,12 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-10T11:03:33Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-11T12:32:07Z" count="32"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/ismael/TFG/sensores/admin.py" added="2019-04-10T11:04:59Z" modified="2019-04-10T11:06:16Z" visited="2019-04-10T11:05:00Z">
+  <bookmark href="file:///home/ismael/TFG/sensores/admin.py" added="2019-04-10T11:04:59Z" modified="2019-04-11T12:26:03Z" visited="2019-04-10T11:05:00Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-python"/>
@@ -76,7 +76,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-10T11:06:16Z" count="2"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-11T12:26:03Z" count="7"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -90,6 +90,45 @@
         </bookmark:groups>
         <bookmark:applications>
           <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-10T13:43:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ismael/TFG/nuevo/manage.py" added="2019-04-10T15:02:43Z" modified="2019-04-10T15:02:43Z" visited="2019-04-10T15:02:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-10T15:02:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ismael/TFG/sensores/migrations/0001_initial.py" added="2019-04-11T11:33:47Z" modified="2019-04-11T11:33:47Z" visited="2019-04-11T11:33:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-11T11:33:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ismael/TFG/gestion/urls.py" added="2019-04-11T12:26:16Z" modified="2019-04-11T12:26:24Z" visited="2019-04-11T12:26:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-11T12:26:24Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
